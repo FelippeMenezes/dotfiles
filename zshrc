@@ -74,3 +74,4 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
