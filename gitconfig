@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = nano
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -51,7 +51,7 @@
   rebase = false
   
 [user]
-	email = felippemenezes1982@gmail.com
+	email = 42714571+FelippeMenezes@users.noreply.github.com
 	name = Felippe Santana
   
 [credential "https://github.com"]
