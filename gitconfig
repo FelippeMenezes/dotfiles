@@ -51,8 +51,8 @@
   rebase = false
   
 [user]
-	email = 42714571+FelippeMenezes@users.noreply.github.com
-	name = Felippe Santana
+	email = felippemenezes1982@gmail.com
+	name = Felippe Menezes
   
 [credential "https://github.com"]
 	helper = 
