@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = code --wait
 
 [alias]
   co = checkout
@@ -52,7 +52,7 @@
   
 [user]
 	email = felippemenezes1982@gmail.com
-	name = Felippe Menezes
+	name = Felippe Santana
   
 [credential "https://github.com"]
 	helper = 
@@ -60,3 +60,7 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+[init]
+	defaultBranch = main
